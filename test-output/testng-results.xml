@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-19T13:15:58 IST" name="Default suite" finished-at="2024-08-19T13:16:57 IST" duration-ms="58764">
+    <groups>
+    </groups>
+    <test started-at="2024-08-19T13:15:58 IST" name="Default test" finished-at="2024-08-19T13:16:57 IST" duration-ms="58764">
+      <class name="selenium.PageObjModel.MainClassToBeCoverted">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:15:59 IST" name="launchApp" finished-at="2024-08-19T13:16:12 IST" duration-ms="13053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:12 IST" name="submitOrder" data-provider="data" finished-at="2024-08-19T13:16:16 IST" duration-ms="4377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Prac@123, product=ADIDAS ORIGINAL, email=prac@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:16 IST" name="tearDown" finished-at="2024-08-19T13:16:17 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:17 IST" name="launchApp" finished-at="2024-08-19T13:16:25 IST" duration-ms="8560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:25 IST" name="submitOrder" data-provider="data" finished-at="2024-08-19T13:16:35 IST" duration-ms="10072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shiva@123, product=ZARA COAT 3, email=demo65@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:35 IST" name="tearDown" finished-at="2024-08-19T13:16:36 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:36 IST" name="launchApp" finished-at="2024-08-19T13:16:45 IST" duration-ms="9292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkInOrders(java.util.HashMap)[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:45 IST" name="checkInOrders" data-provider="data" finished-at="2024-08-19T13:16:46 IST" depends-on-methods="selenium.PageObjModel.MainClassToBeCoverted.submitOrder" duration-ms="590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Prac@123, product=ADIDAS ORIGINAL, email=prac@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:46 IST" name="tearDown" finished-at="2024-08-19T13:16:47 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:47 IST" name="launchApp" finished-at="2024-08-19T13:16:56 IST" duration-ms="9287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkInOrders(java.util.HashMap)[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:56 IST" name="checkInOrders" data-provider="data" finished-at="2024-08-19T13:16:57 IST" depends-on-methods="selenium.PageObjModel.MainClassToBeCoverted.submitOrder" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shiva@123, product=ZARA COAT 3, email=demo65@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium.PageObjModel.MainClassToBeCoverted@a530d0a]" started-at="2024-08-19T13:16:57 IST" name="tearDown" finished-at="2024-08-19T13:16:57 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.PageObjModel.MainClassToBeCoverted -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
